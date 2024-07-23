@@ -5,6 +5,23 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+/* Style for centering the resume content */
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+}
+
+/* Ensure the content section takes the full height of its parent */
+#one .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2560,6 +2577,13 @@ input, select, textarea {
 				}
 
 /* Image */
+/* Style for the image to be on the right side */
+.right-image {
+    float: left;
+    max-width: 50%;
+    height: auto;
+    margin-left: 0px;
+}
 
 	.image {
 		border-radius: 0.25em;
